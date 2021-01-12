@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="../js/jquery-3.5.1.js"></script>
+  <script src="../js/index.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar bg-primary ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-inverse navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar "></span>
+            <span class="icon-bar "></span>
+            <span class="icon-bar "></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="../image/blog.png"></a>
+        </div>
+        <div class="collapse navbar-collapse justify-center" id="myNavbar">
+          <ul class="ulist">
+            <li class="list"><button type="button" class="buttonx btn  btn1" data-filter="home">Home</button></li>
+            <li class="list"><button type="button" class="buttonx btn btn1" data-filter="login">Login</button></li>
+            <li class="list"><button type="button" class="buttonx btn  btn1" data-filter="register">Signup</button></li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Registration Form -->
+  <div class="container" id="contain1">
+    <form class="form-horizontal" role="form" id="myForm">
+      <h1 class="text-center head">Register Now</h1>
+
+      <div class="form-group row">
+        <label for="name" class="col-sm-3 control-label">Name</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control " id="name" placeholder="Name" required>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="email" class="col-sm-3 control-label">Email</label>
+        <div class="col-sm-9">
+          <input type="email" class="form-control" id="email" required placeholder="abc@gmail.com"
+            pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+          <span class="text-muted" id="inval"></span>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="pass" class="col-sm-3 control-label">Password</label>
+        <div class="col-sm-9">
+          <input type="password" class="form-control" required placeholder="Password" id="pass"
+            pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="confirm password" class="col-sm-3 control-label">Confirm Password</label>
+        <div class="col-sm-9">
+          <input type="password" class="form-control" id="cpass" required placeholder="Password"
+            pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$">
+          <span id="out"></span>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="phone" class="col-sm-3 control-label">Phone Number</label>
+        <div class="col-sm-9">
+          <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required pattern="[0-9]{10}">
+          <small class="text-muted">Your phone number won't be disclosed anywhere</small>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="control-label col-sm-3">Gender</label>
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="col-sm-4">
+              <label class="radio-inline">
+                <input type="radio" id="femaleRadio" name="gender" class="gen" value="Female">Female
+              </label>
+            </div>
+            <div class="col-sm-4">
+              <label class="radio-inline">
+                <input type="radio" id="maleRadio" name="gender" class="gen" value="Male">Male
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="  col-sm-9 col-sm-offset-3">
+          <span class="help-block">*Required fields</span>
+        </div>
+      </div>
+      <button type="submit" id="but" class="btn btn-primary btn-block">Register</button>
+    </form>
+    <!-- Login Form -->
+    <form class="form-horizontal" role="form" id="myForm1">
+      <h1 class="text-center head">Login</h1>
+
+
+      <div class="form-group row">
+        <label for="email" class="col-sm-3 control-label">Email</label>
+        <div class="col-sm-9">
+          <input type="email" class="form-control" id="email1" required placeholder="abc@gmail.com"
+            pattern="^[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="pass" class="col-sm-3 control-label">Password</label>
+        <div class="col-sm-9">
+          <input type="password" class="form-control" placeholder="Password" required id="pass1"
+            pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$">
+          <span class="text-muted"></span>
+        </div>
+      </div>
+
+
+
+      <button type="submit" id="but1" class="btn btn-primary btn-block">Login</button>
+
+
+
+
+
+    </form>
+  </div>
+
+  <!-- sidenav category buttons -->
+  <div class="container-fluid" id="home">
+    <div class="row content">
+      <div class="col-sm-3 sidenav">
+        <h4>Categories</h4>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><button class="btn btn-primary btn-block buttonz" data-filter="all">All Blogs</button></li>
+          <li><button class="btn btn-primary btn-block buttonz" data-filter="Technology">Technology</button></li>
+          <li><button class="btn btn-primary btn-block buttonz" data-filter="Lifestyle">Life Style</button></li>
+          <li><button class="btn btn-primary btn-block buttonz" data-filter="IT">IT</button></li>
+        </ul><br>
+        <div class="input-group">
+          <input type="search" class="form-control" placeholder="Search Blog.." id="sea">
+          <span class="input-group-btn">
+            <button class="btn btn-default .search1" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+      </div>
+      <!-- Blog Container -->
+      <div class="wrapperblog mainc">
+
+      </div>
+      <!-- Pagination Buttons -->
+      <button class="paginatebtn btn-primary" id="prev" type="button">Prev</button>
+      <button class="paginatebtn btn-primary" id="next" type="button">Next</button>
+
+
+    </div>
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Alert</h4>
+          </div>
+          <div class="modal-body">
+            <h4>Login to Continue</h4>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- <footer class="bg-primary text-center container-fluid"></footer> -->
+
+</body>
+
+</html>

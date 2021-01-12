@@ -1,0 +1,35 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {
+  height: 100vh; }
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #97CAEF;
+  height: 100vh; }
+
+/* Set black background color, white text and some padding */
+.mainc {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px; }
+
+.innersub {
+  background-color: #fffdd0; }
+
+.sub {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 48%;
+  border-radius: 10px; }
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px; }
+  .row.content {
+    height: auto; }
+  .sub {
+    width: 100%; } }

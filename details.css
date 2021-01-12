@@ -1,0 +1,56 @@
+.header1 {
+  height: 15vh;
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 2%; }
+
+a:hover {
+  background-color: #ddd;
+  color: black; }
+
+.previous {
+  background-color: #ddd;
+  color: black; }
+
+.next {
+  background-color: #001a66;
+  color: white; }
+
+.round {
+  border-radius: 50%; }
+
+#display {
+  width: 100%;
+  background-color: #97CAEF; }
+
+.comm {
+  width: 100%; }
+
+.commentbody {
+  width: 100%; }
+
+.comment-wrapper .panel-body {
+  max-height: 650px;
+  overflow: auto;
+  width: 100%; }
+
+.comment-wrapper .media-list .media img {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #e5e7e8; }
+
+.comment-wrapper .media-list .media {
+  border-bottom: 1px dashed #efefef;
+  margin-bottom: 25px; }
+
+.Bimage {
+  width: 100%;
+  height: 40%; }
+
+.fullblog {
+  text-align: center;
+  width: 50%; }

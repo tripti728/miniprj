@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Jack@ss265",
+      "phone": "8796749069",
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "name": "ayush ",
+      "email": "ayushsin@cybage.com",
+      "password": "Ayush@111",
+      "phone": "8745073409",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "name": "tripti",
+      "email": "tripti@gmail.com",
+      "password": "Tripti@123",
+      "phone": "8745073409",
+      "gender": "Female",
+      "id": 3
+    }
+  ],
+  "blogs": [
+    {
+      "author": "shekhar",
+      "title": "trip to goa",
+      "image": "../image/a.jpg",
+      "date": "2020/11/10",
+      "category": "Lifestyle",
+      "content": "<p style=\"box-sizing: inherit; margin: 0px 0px 26px; padding: 0px; color: #222222; font-family: Roboto, sans-serif; font-size: 16px; background-color: #ffffff;\">Diwali is my favorite festival of the year and I celebrate it with lots of enthusiasm with my family members and friends. Diwali is called the festival of lights because we celebrate it by lighting lots of diyas and candles. It is a traditional and cultural festival celebrated by each and every Hindu person all over India and abroad. People decorate their houses with lots of candles and small clay oil lamps indicating the victory of good over evil.</p>\n<p style=\"box-sizing: inherit; margin: 0px 0px 26px; padding: 0px; color: #222222; font-family: Roboto, sans-serif; font-size: 16px; background-color: #ffffff;\">Family members spend most of the day time in preparing house (cleaning, decorating, etc) to welcome the festival with a grand evening party. Neighbors, family members, and friends get collected in the evening party and enjoy the party with lots of delicious Indian dishes, dance, music, etc all through the night. Houses look very attractive in whitewash, candle lights, and rangolis. High pitch music and fireworks make the celebration more interesting.</p>",
+      "id": 1
+    },
+    {
+      "author": "shekhar",
+      "title": "should we buy bitbucket ",
+      "image": "../image/jerry.png",
+      "date": "2020/11/10",
+      "category": "Lifestyle",
+      "content": "<p><span style=\"font-family: 'arial black', sans-serif;\"><span style=\"color: rgba(0, 0, 0, 0.84); font-size: 22px; letter-spacing: -0.286px;\">First of all, understand that India is the land of festivals. However, none of the festivals comes close to Diwali. It is certainly one of the biggest&nbsp;</span><a style=\"box-sizing: border-box; border: 0px; color: #55bbea; text-decoration-line: none; transition: color 0.8s ease-out 0s; font-size: 22px; letter-spacing: -0.286px;\" href=\"https://www.toppr.com/guides/general-awareness/indian-culture/important-festivals-and-events-in-india/\">festivals in India.</a><span style=\"color: rgba(0, 0, 0, 0.84); font-size: 22px; letter-spacing: -0.286px;\">&nbsp;It is probably the brightest festival in the world. People of different religions celebrate Diwali. Most noteworthy, the festival signifies the victory of light over darkness. This also means the triumph of good over evil and knowledge over ignorance. It is known as the festival of lights. Consequently, there are bright lights all over the whole country during Diwali. In this essay on Diwali, we will see the religious and spiritual significance of Diwali.</span></span></p>",
+      "id": 2
+    },
+    {
+      "author": "shekhar",
+      "title": "decision is made to complete the project soon.",
+      "image": "../image/a.jpg",
+      "date": "2020/11/11",
+      "category": "IT",
+      "content": "<p><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">JavaScript</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">&nbsp;Object Notation (JSON) is a standard text-based format for representing structured data based on&nbsp;</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">JavaScript</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">&nbsp;object syntax. It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa)</span></p>",
+      "id": 3
+    },
+    {
+      "author": "shekhar",
+      "title": "decision is made to complete the project soon.",
+      "image": "../image/b.jpg",
+      "date": "2020/11/11",
+      "category": "IT",
+      "content": "<p><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">JavaScript</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">&nbsp;Object Notation (JSON) is a standard text-based format for representing structured data based on&nbsp;</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">JavaScript</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">&nbsp;object syntax. It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa)</span></p>",
+      "id": 4
+    },
+    {
+      "author": "ayush ",
+      "title": "decision is made to complete the project soon.",
+      "image": "../image/a.jpg",
+      "date": "2020/11/11",
+      "category": "Technology",
+      "content": "<p>test</p>",
+      "id": 6
+    },
+    {
+      "author": "ayush ",
+      "title": "Nature is the best teacher",
+      "image": "../image/a.jpg",
+      "date": "2020/11/11",
+      "category": "Technology",
+      "content": "<p>testing</p>",
+      "id": 7
+    },
+    {
+      "author": "ayush ",
+      "title": "Nature is the best teacher",
+      "image": "../image/d.png",
+      "date": "2020/11/11",
+      "category": "Lifestyle",
+      "content": "<p>asdffffffffffffffffffffffffffffdfdsfggrfg</p>",
+      "id": 8
+    },
+    {
+      "author": "ayush ",
+      "title": "decision is made to complete the project soon.",
+      "image": "../image/d.png",
+      "date": "2020/11/11",
+      "category": "Lifestyle",
+      "content": "<p>final</p>",
+      "id": 9
+    }
+  ],
+  "likes": [
+    {
+      "blogid": "1",
+      "name": "shekhar",
+      "id": 1
+    },
+    {
+      "blogid": "2",
+      "name": "shekhar",
+      "id": 2
+    },
+    {
+      "blogid": "1",
+      "name": "ayush ",
+      "id": 3
+    },
+    {
+      "blogid": "1",
+      "name": "tripti",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "content": "good",
+      "blogid": "1",
+      "name": "shekhar",
+      "id": 1
+    },
+    {
+      "content": "dfffdff",
+      "blogid": "1",
+      "name": "shekhar",
+      "id": 2
+    },
+    {
+      "content": "gfrfg",
+      "blogid": "1",
+      "name": "shekhar",
+      "id": 3
+    }
+  ]
+}
